@@ -14,6 +14,24 @@ Push committed changes to remote server
 $ git push
 
 
+discard changes: 
+$ git checkout -- <filename>
+
+revert and commit 
+$ git revert <commitID>
+
+revert but not commit
+$ git revert -n 
+
+unstage all changes
+$ git reset <file> 
+or
+$ git reset 
+
+
+
+$ git reset --hard
+
 
 Branching 
 $ git checkout -b dummy 
