@@ -1,15 +1,18 @@
 
 
+Branching 
 
+$ git branch
 
+Delete branch
+
+delete remote branch
+$ git push --delete <remote_name> <branch_name>
+delete local branch
+$ git branch -d <branch_name>
+$ git branch -D <branch_name>
 
 The -d option is an alias for --delete, which only deletes the branch if it has already been fully merged in its upstream branch. You could also use -D, which is an alias for --delete --force, which deletes the branch "irrespective of its merged status."
-
-
-Discussion 1. 
-
-
-
 
 
 create new git repository from scratch
