@@ -1,0 +1,40 @@
+
+
+
+
+
+The -d option is an alias for --delete, which only deletes the branch if it has already been fully merged in its upstream branch. You could also use -D, which is an alias for --delete --force, which deletes the branch "irrespective of its merged status."
+
+
+Discussion 1. 
+
+
+
+
+
+create new git repository from scratch
+https://kbroman.org/github_tutorial/pages/init.html
+
+
+Display .gitconfig file: nano $HOME/.gitconfig
+display ssh keys : cat id_rsa.pub
+
+When never you need to interact with remote servers, you can choose to define SSH key 
+
+
+
+Difference between for and branch: https://blog.gitprime.com/the-definitive-guide-to-forks-and-branches-in-git/
+
+git fork: https://www.atlassian.com/git/tutorials/git-forks-and-upstreams
+
+git remote -v
+
+git fetch upstream        // collect latest changes of the upstream repository 
+
+git checkout master 
+git merge upstream/master
+
+
+How to github?: fork, branch, track, squash, and pull request. 
+https://www.gun.io/blog/how-to-github-fork-branch-and-pull-request
+
