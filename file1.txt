@@ -10,3 +10,7 @@ My favorite classes to teach, in no particular order:
 5. Stats 10
 6. Stats anything
 
+My Favorite things to learn:
+1. Python
+2. R
+3. Stats
