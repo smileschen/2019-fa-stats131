@@ -1,8 +1,32 @@
 
 
+Add changes to staging area. Later on staging area will be used to commit files
+
+$ git add
+
+Commit your change to the local vc system.
+
+$ git commit -m 
+
+
+Push committed changes to remote server 
+
+$ git push
+
+
+
 Branching 
+$ git checkout -b dummy 
 
 $ git branch
+
+
+
+Merge branches
+
+
+
+
 
 Delete branch
 
@@ -13,6 +37,13 @@ $ git branch -d <branch_name>
 $ git branch -D <branch_name>
 
 The -d option is an alias for --delete, which only deletes the branch if it has already been fully merged in its upstream branch. You could also use -D, which is an alias for --delete --force, which deletes the branch "irrespective of its merged status."
+
+
+For different branches, the logs are different
+
+$ git log 
+
+
 
 
 create new git repository from scratch
